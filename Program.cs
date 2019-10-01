@@ -12,8 +12,37 @@ namespace CSharpClass
             // Console.WriteLine("Hello World!");
             // MyLesson5Examples();  
             // MyLesson6Examples();
-            MyLesson7Examples();
-        } // End Method Main 
+            // MyLesson7Examples();
+            // MyLesson8Examples();
+               MyOtherLesson8Example();
+                } // End Method Main 
+            static void MyOtherLesson8Example()
+                {
+                    Lesson8 myLesson8 = new Lesson8();
+                    myLesson8.BasicWhileLoop();
+
+                    myLesson8.BasicDoWhileLoopExample();
+                    myLesson8.BasicForLoopExample(5);
+                    myLesson8.BasicForEachLoopExample();
+                    Console.WriteLine (myLesson8.BasicJumpStatementExample("Sunday"));
+                    myLesson8.BasicOtherJumpStatements();
+
+                } // end method my other lesson 8 examples
+            
+
+        static void MyLesson8Examples()
+        {
+            Lesson8 myEight = new Lesson8();
+            myEight.BasicIfStatement();
+            myEight.BasicIfElseExample();
+            myEight.BasicIfElseExample();
+            Console.WriteLine(myEight.BasicAndConditionExample());
+            Console.WriteLine(myEight.BasicOrConditionExample(4));
+            myEight.BasicTernaryOperatorExample(42);
+            myEight.BasicSwitchExample(3);
+
+
+        } // end method my lesson 8 examples
 
         static void MyLesson7Examples()
         {
@@ -23,16 +52,14 @@ namespace CSharpClass
             mySeven.MyCheckOperator1();
             mySeven.MyCheckOperator2();
             mySeven.MyLeftShiftOperator();
-            mySeven.MyRightShiftOperator(); 
-            mySeven.MyAndAssignmentOperator();            
-            mySeven.MyOrAssignmentOperator(); 
+            mySeven.MyRightShiftOperator();
+            mySeven.MyAndAssignmentOperator();
+            mySeven.MyOrAssignmentOperator();
             mySeven.MyXOrAssignmentOperator();
-            mySeven.MyIncrementDecrementExample();   
+            mySeven.MyIncrementDecrementExample();
         }  // end method my lesson 7 examples
 
-           static void MyLesson6Examples()
-
-
+        static void MyLesson6Examples()
         {
             Lesson6 mySix = new Lesson6();
             mySix.MyTrimExample();
