@@ -15,8 +15,19 @@ namespace CSharpClass
             // MyLesson7Examples();
             // MyLesson8Examples();
             // MyOtherLesson8Examples();
-            MyLesson9Examples();
+           // MyLesson9Examples();
+           MyLesson10Examples();
         } // End Method Main 
+
+        static void MyLesson10Examples()
+        {
+            Lesson10 myTen = new Lesson10();
+            myTen.BasicPublicMethod();
+            Lesson5 myFive = new Lesson5();
+            myFive._myLongValue = 12345L; //can see because its internal 
+
+        } // end method my lesson 10 examples
+
         static void MyLesson9Examples()
         {
             Lesson9 myNine = new Lesson9();
