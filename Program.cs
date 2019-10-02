@@ -14,21 +14,32 @@ namespace CSharpClass
             // MyLesson6Examples();
             // MyLesson7Examples();
             // MyLesson8Examples();
-               MyOtherLesson8Example();
-                } // End Method Main 
-            static void MyOtherLesson8Example()
-                {
-                    Lesson8 myLesson8 = new Lesson8();
-                    myLesson8.BasicWhileLoop();
+            // MyOtherLesson8Examples();
+            MyLesson9Examples();
+        } // End Method Main 
+        static void MyLesson9Examples()
+        {
+            Lesson9 myNine = new Lesson9();
+            myNine.BasicArray();
+            myNine.MultiArraySample();
+            myNine.My3DArrayExample();
+            myNine.MyJaggedArrayExample();
 
-                    myLesson8.BasicDoWhileLoopExample();
-                    myLesson8.BasicForLoopExample(5);
-                    myLesson8.BasicForEachLoopExample();
-                    Console.WriteLine (myLesson8.BasicJumpStatementExample("Sunday"));
-                    myLesson8.BasicOtherJumpStatements();
+        } // end method my lesson 9 examples
 
-                } // end method my other lesson 8 examples
-            
+        static void MyOtherLesson8Example()
+        {
+            Lesson8 myLesson8 = new Lesson8();
+            myLesson8.BasicWhileLoop();
+
+            myLesson8.BasicDoWhileLoopExample();
+            myLesson8.BasicForLoopExample(5);
+            myLesson8.BasicForEachLoopExample();
+            Console.WriteLine(myLesson8.BasicJumpStatementExample("Sunday"));
+            myLesson8.BasicOtherJumpStatements();
+
+        } // end method my other lesson 8 examples
+
 
         static void MyLesson8Examples()
         {
