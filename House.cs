@@ -1,3 +1,5 @@
+using System;
+
 namespace CSharpClass
 {
     /*This class demonstrates the basic object of house
@@ -10,9 +12,15 @@ namespace CSharpClass
         string _doorColor;
 
 
-        public void DoorOpenClose() 
+        public virtual void DoorOpenClose() 
         {
-
+            Console.WriteLine("The door opens");
         } //end method door open close
+
+        public void  DoorOpenClose(string _doorColor)
+        {
+            
+        }
+
     }//end class
 }//end namespace
