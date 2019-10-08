@@ -71,7 +71,7 @@ namespace CSharpClass.Lessons
             }
         } // end basic and condition example
 
-        // This method uese the || (OR) operator
+        // This method uses the || (OR) operator
         public int BasicOrConditionExample(int able)
         {
             Console.WriteLine("Before If Statement");

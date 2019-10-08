@@ -5,8 +5,11 @@ namespace CSharpClass
 {
     public class Sandles : Shoes
     {
+        // string _Buckles
+        //string _Straps;
+        public string Straps { get; set;}
 
-        string _Straps;
+        public string Buckles { get; set;}
 
         public void Protects()
         {

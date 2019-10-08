@@ -1,5 +1,6 @@
 ﻿using System;
 using CSharpClass.Lessons;
+using CSharpClass.Labs;
 
 namespace CSharpClass
 {
@@ -15,14 +16,21 @@ namespace CSharpClass
             // MyLesson7Examples();
             // MyLesson8Examples();
             // MyOtherLesson8Examples();
-           // MyLesson9Examples();
-           //MyLesson10Examples();
-          // MyLesson11Examples();
-               // MyBeerSong();
+            // MyLesson9Examples();
+            //MyLesson10Examples();
+            // MyLesson11Examples();
+            // MyBeerSong();
+            //  MyLesson12Examples();
+                MyLesson13House();
+           } // End Method Main
 
-               MyLesson12Examples();
 
-          } // End Method Main 
+            static void MyLesson13House()
+            {
+                House myHouse = new House(36, "Granite");
+                Console.WriteLine(myHouse.DoorColor);
+                myHouse.RoofType = "Steel";
+            }
 
         static void MyLesson12Examples()
         {
@@ -35,15 +43,15 @@ namespace CSharpClass
             Sandles mySandles = new Sandles();
             mySandles.Warn();
             Radio myRadio = new Clocks();
-            
+
             myRadio.RadioVolumeHalfSpeed();
         }
 
-           static void MyBeerSong()
-           {
-               BottlesOfBeer beer = new BottlesOfBeer();
-               Console.WriteLine(beer.LetsSing());
-           }
+        static void MyBeerSong()
+        {
+            BottlesOfBeer beer = new BottlesOfBeer();
+            Console.WriteLine(beer.LetsSing());
+        }
 
         static void MyLesson11Examples()
         {
@@ -54,7 +62,7 @@ namespace CSharpClass
             Lesson11Struct myStruct = new Lesson11Struct(9.99m, "king", "The Stand");
             int myValue = 14;
             myEleven.MyBasicRefExample(ref myValue);
-            Console.WriteLine(myValue +" from program");
+            Console.WriteLine(myValue + " from program");
 
             string first, last;
             myLesson11.MyBasicOutExample("Foghorn Leghorn", out first, out last);

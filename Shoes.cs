@@ -7,9 +7,15 @@ namespace CSharpClass
 
     public class Shoes
     {
-       int _Laces;
-       string _eyelets;
-       string _souls;
+      // int _Laces;
+      // string _eyelets;
+      // string _souls;
+
+       public string Eyelets { get; set;}
+
+       public string Souls { get; set;}
+
+       public int Laces { get; set;}
 
        public virtual void Warn() 
        {
